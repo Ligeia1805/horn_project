@@ -24,6 +24,10 @@ Run
 
     source ~/VirtualEnv/horn_project/bin/activate
 
+Enter directory 
+
+    cd horn_project
+
 To run a `python3` code run
 
     python3 main.py
