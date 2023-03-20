@@ -1,1 +1,21 @@
-# horn_project
+# Horndeski
+
+First run the following
+
+    export VENV_PATH=~/VirtualEnv/horn_project
+    python3 -m venv $VENV_PATH
+    source $VENV_PATH/bin/activate
+    pip install -U pip setuptools
+    pip install poetry
+
+Enter the repository directory
+
+    cd horn_project
+
+And install the necessary packages
+
+    poetry install
+
+To run a `python3` code run
+
+    python3 main.py

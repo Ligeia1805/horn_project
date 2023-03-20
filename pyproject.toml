@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "horn_project"
+version = "0.1.0"
+description = ""
+authors = ["Uzmar Gomez <uzmar.gomez@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "poetry_demo"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+classy = "2.9.4"
+numpy = "^1.24.2"
+scikit-learn = "^1.2.2"
+cython = "^0.29.33"
+matplotlib = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
